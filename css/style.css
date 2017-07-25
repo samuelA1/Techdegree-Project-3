@@ -17,7 +17,7 @@ hr {
 HEADER
 ****************************************************/
 header {
-  background-color: #282828;
+  background-color: #00BFFF;
   padding-top: 2em;
   padding-bottom: 5px;
 }
@@ -123,6 +123,9 @@ input:focus, textarea:focus {
 }
 ::-webkit-input-placeholder {
    text-align: right;
+}
+textarea::-webkit-input-placeholder{
+  text-align: left;
 }
 
 
